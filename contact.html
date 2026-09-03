@@ -82,7 +82,7 @@
 
             try {
                 // REPLACE WITH YOUR ACTUAL CLOUDFLARE WORKER URL
-                const response = await fetch('YOUR_WORKER_URL_HERE', {
+                const response = await fetch('https://shekar-contact-worker.shekarweblab.workers.dev/', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(formData)
