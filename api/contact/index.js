@@ -34,7 +34,7 @@ export default {
           },
           body: JSON.stringify({
             from: "onboarding@resend.dev",
-            to: "your-actual-email@gmail.com", // Replace with your personal inbox email where you want to receive inquiries
+            to: "shekarweblab@gmail.com", // Replace with your personal inbox email where you want to receive inquiries
             subject: `New Project Inquiry from ${name}`,
             html: `<p><strong>Name:</strong> ${name}</p>
                    <p><strong>Email:</strong> ${email}</p>
